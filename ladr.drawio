@@ -1,26 +1,32 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="Page-1" id="ByvnQck7oioNosqnXvya">
-    <mxGraphModel dx="993" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="993" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GoVv1eCyHADcIdVujOS8-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Lore Archive&#39;s Dialogue Reader&lt;/h1&gt;&lt;p&gt;This flowchart aims to somewhat visualize the process of the internal organs of LADR.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="10" y="10" width="440" height="120" as="geometry" />
+        <mxCell id="GoVv1eCyHADcIdVujOS8-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Lore Archive&#39;s Dialogue Reader&lt;/h1&gt;&lt;p&gt;This flowchart aims to somewhat visualize the process of the internal organs of LADR.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Overview:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GetEpisode is responsible for fetching JSON data.&lt;/li&gt;&lt;li&gt;ProcessScript is responsible for structuring this JSON data.&lt;/li&gt;&lt;li&gt;UniversalProcessor is responsible for managing the JSON data, sending it to individual processors&lt;/li&gt;&lt;li&gt;ProcessX is responsible for rendering the JSON based on pre-defined rules&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="590" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="h9_NCiJFx6fMO5zuVkHy-2" value="DOM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="480" width="240" height="140" as="geometry" />
+        <mxCell id="h9_NCiJFx6fMO5zuVkHy-2" value="DOM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="305" y="850" width="240" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="h9_NCiJFx6fMO5zuVkHy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h9_NCiJFx6fMO5zuVkHy-3" target="h9_NCiJFx6fMO5zuVkHy-2">
+        <mxCell id="h9_NCiJFx6fMO5zuVkHy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="h9_NCiJFx6fMO5zuVkHy-3" target="h9_NCiJFx6fMO5zuVkHy-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h9_NCiJFx6fMO5zuVkHy-3" value="index.html" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="385" y="350" width="80" height="80" as="geometry" />
+        <mxCell id="h9_NCiJFx6fMO5zuVkHy-3" value="index.html" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="385" y="720" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h9_NCiJFx6fMO5zuVkHy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h9_NCiJFx6fMO5zuVkHy-5" target="h9_NCiJFx6fMO5zuVkHy-3">
+        <mxCell id="h9_NCiJFx6fMO5zuVkHy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="h9_NCiJFx6fMO5zuVkHy-5" target="h9_NCiJFx6fMO5zuVkHy-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h9_NCiJFx6fMO5zuVkHy-5" value="root.jsx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="290" y="200" width="270" height="110" as="geometry" />
+        <mxCell id="h9_NCiJFx6fMO5zuVkHy-5" value="root.jsx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="290" y="570" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8rf2ql7Jv7VgkrqEvu-V-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8rf2ql7Jv7VgkrqEvu-V-1" target="h9_NCiJFx6fMO5zuVkHy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rf2ql7Jv7VgkrqEvu-V-1" value="Home.jsx" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="385" y="370" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
