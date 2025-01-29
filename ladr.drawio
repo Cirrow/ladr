@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Page-1" id="ByvnQck7oioNosqnXvya">
-    <mxGraphModel dx="1185" dy="631" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="4148" dy="2208" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GoVv1eCyHADcIdVujOS8-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Lore Archive&#39;s Dialogue Reader&lt;/h1&gt;&lt;p&gt;This flowchart aims to somewhat visualize the process of the internal organs of LADR.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Overview:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GetEpisode is responsible for fetching JSON data.&lt;/li&gt;&lt;li&gt;ProcessScript is responsible for structuring this JSON data.&lt;/li&gt;&lt;li&gt;CPU is responsible for managing the JSON data, sending it to individual processors&lt;/li&gt;&lt;li&gt;ProcessX is responsible for rendering the JSON based on pre-defined rules&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="10" y="10" width="590" height="220" as="geometry" />
+          <mxGeometry x="40" y="30" width="590" height="220" as="geometry" />
         </mxCell>
         <mxCell id="h9_NCiJFx6fMO5zuVkHy-2" value="DOM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="877" width="240" height="140" as="geometry" />
